@@ -20,6 +20,7 @@ namespace EFDevam_0.DesignPatterns.SingletonPattern
                 if(_dbInstance == null) _dbInstance = new NorthwindEntities();
                 return _dbInstance;
             }
+           
         }
 
 
