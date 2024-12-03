@@ -45,7 +45,7 @@
             this.LstUrunler.FormattingEnabled = true;
             this.LstUrunler.ItemHeight = 22;
             this.LstUrunler.Location = new System.Drawing.Point(390, 36);
-            this.LstUrunler.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.LstUrunler.Margin = new System.Windows.Forms.Padding(4);
             this.LstUrunler.Name = "LstUrunler";
             this.LstUrunler.Size = new System.Drawing.Size(793, 730);
             this.LstUrunler.TabIndex = 11;
@@ -54,17 +54,18 @@
             // BtnGuncelle
             // 
             this.BtnGuncelle.Location = new System.Drawing.Point(71, 588);
-            this.BtnGuncelle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnGuncelle.Margin = new System.Windows.Forms.Padding(4);
             this.BtnGuncelle.Name = "BtnGuncelle";
             this.BtnGuncelle.Size = new System.Drawing.Size(204, 54);
             this.BtnGuncelle.TabIndex = 8;
             this.BtnGuncelle.Text = "Guncelle";
             this.BtnGuncelle.UseVisualStyleBackColor = true;
+            this.BtnGuncelle.Click += new System.EventHandler(this.BtnGuncelle_Click);
             // 
             // BtnEkle
             // 
             this.BtnEkle.Location = new System.Drawing.Point(71, 492);
-            this.BtnEkle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnEkle.Margin = new System.Windows.Forms.Padding(4);
             this.BtnEkle.Name = "BtnEkle";
             this.BtnEkle.Size = new System.Drawing.Size(204, 54);
             this.BtnEkle.TabIndex = 9;
@@ -75,17 +76,18 @@
             // BtnSil
             // 
             this.BtnSil.Location = new System.Drawing.Point(71, 685);
-            this.BtnSil.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnSil.Margin = new System.Windows.Forms.Padding(4);
             this.BtnSil.Name = "BtnSil";
             this.BtnSil.Size = new System.Drawing.Size(204, 54);
             this.BtnSil.TabIndex = 10;
             this.BtnSil.Text = "Sil";
             this.BtnSil.UseVisualStyleBackColor = true;
+            this.BtnSil.Click += new System.EventHandler(this.BtnSil_Click);
             // 
             // TxtFiyat
             // 
             this.TxtFiyat.Location = new System.Drawing.Point(39, 224);
-            this.TxtFiyat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtFiyat.Margin = new System.Windows.Forms.Padding(4);
             this.TxtFiyat.Name = "TxtFiyat";
             this.TxtFiyat.Size = new System.Drawing.Size(248, 28);
             this.TxtFiyat.TabIndex = 6;
@@ -93,7 +95,7 @@
             // TxtIsim
             // 
             this.TxtIsim.Location = new System.Drawing.Point(40, 110);
-            this.TxtIsim.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtIsim.Margin = new System.Windows.Forms.Padding(4);
             this.TxtIsim.Name = "TxtIsim";
             this.TxtIsim.Size = new System.Drawing.Size(248, 28);
             this.TxtIsim.TabIndex = 7;
@@ -134,6 +136,7 @@
             this.BtnSecimResetle.TabIndex = 13;
             this.BtnSecimResetle.Text = "Kategori Resetle";
             this.BtnSecimResetle.UseVisualStyleBackColor = true;
+            this.BtnSecimResetle.Click += new System.EventHandler(this.BtnSecimResetle_Click);
             // 
             // Form3
             // 
@@ -151,7 +154,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form3";
             this.Text = "Form3";
             this.Load += new System.EventHandler(this.Form3_Load);

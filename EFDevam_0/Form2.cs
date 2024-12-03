@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EFDevam_0.DesignPatterns.SingletonPattern;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,7 @@ namespace EFDevam_0
         public Form2()
         {
             InitializeComponent();
+           
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using EFDevam_0.Models;
+﻿using EFDevam_0.DesignPatterns.SingletonPattern;
+using EFDevam_0.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -22,7 +23,7 @@ namespace EFDevam_0
         public Form1()
         {
             InitializeComponent();
-            _db = new NorthwindEntities();
+            _db = DBTool.DbInstance;
         }
 
         //Form yüklendigi zaman Kategori bilgilerinin ListBox'a gelmesini istiyoruz...
